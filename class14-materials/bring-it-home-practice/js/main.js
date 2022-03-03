@@ -20,6 +20,14 @@ function run(){
     alert(numOne + numFour + numThree + numTwo);
 }
 // Create a function that divides one number by another and returns the remainder
+document.querySelector("#remain").addEventListener("click", whatsLeft);
+
+function whatsLeft(){
+    let oneNum = 130;
+    let twoNum = 8;
+
+    alert(oneNum % twoNum);
+}
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
