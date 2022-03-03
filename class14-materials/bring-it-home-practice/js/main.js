@@ -31,5 +31,17 @@ function whatsLeft(){
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
+document.querySelector("#jumanji").addEventListener('click', great);
+
+function great(){
+    let apple = 17;
+    let orange = 567;
+
+    if(apple + orange > 50) {
+        alert("Jumanji")
+    } else {
+        alert("not!")
+    }
+}
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
