@@ -1,5 +1,6 @@
 document.querySelector("#yell").addEventListener('click', run);
 
 function run(){
-  alert("works")
+   firstName = document.querySelector("#firstName").value;
+   alert(firstName)
 }
