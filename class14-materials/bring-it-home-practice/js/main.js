@@ -45,3 +45,16 @@ function great(){
 }
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+document.querySelector("#multi").addEventListener('click', long);
+
+function long(){
+    let gym = 7;
+    let house = 12;
+    let chair = 157;
+
+    if(gym * house * chair % 3){
+        alert("zebra")
+    } else{
+        alert("hell naw")
+    }
+}
