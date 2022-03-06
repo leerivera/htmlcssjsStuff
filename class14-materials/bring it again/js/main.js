@@ -13,3 +13,10 @@ function fourNumsAddTwoSubTwo(n1, n2, n3, n4) {
     const result = n1 + n2 - n3 - n4
     console.log(result)
 }
+
+function determinWinna(n1,n2,n3) {
+    const result = (100 + n1 -n2) / n3
+    if(result > 25){
+        console.log("winna")
+    }
+}
