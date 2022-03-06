@@ -25,5 +25,15 @@ function dayOfWeek(day) {
     const dayOfWeek = day.toLowerCase();
     if(dayOfWeek === 'saturday' || dayOfWeek === "sunday"){
         alert("weekend")
-    }
+    } else if(dayOfWeek === "monday" ||
+              dayOfWeek === "tuesday" ||
+              dayOfWeek === "wednesday" ||
+              dayOfWeek === "thurday" ||
+              dayOfWeek === "friday" ||{
+                  alert("weekday")
+              }else{
+                  alert("nope")
+
+              }
+    
 }
