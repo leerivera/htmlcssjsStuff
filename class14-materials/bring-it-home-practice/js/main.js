@@ -3,4 +3,12 @@ function subFourNumsAndAlert(n1, n2, n3, n4){
     alert(difference)
 }
 
-SubmitEvent(17, 37, 19, 50);
+subFourNumsAndAlert(17, 37, 19, 50);
+
+function addTwoNumsAlert(robin, williams){
+    const sum = robin + williams
+    if(sum > 50){
+        alert('Hell yeah')
+    }
+}
+addTwoNumsAlert(50, 1)
