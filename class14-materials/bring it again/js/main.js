@@ -20,3 +20,10 @@ function determinWinna(n1,n2,n3) {
         console.log("winna")
     }
 }
+
+function dayOfWeek(day) {
+    const dayOfWeek = day.toLowerCase();
+    if(dayOfWeek === 'saturday' || dayOfWeek === "sunday"){
+        alert("weekend")
+    }
+}
